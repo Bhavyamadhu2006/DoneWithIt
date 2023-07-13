@@ -4,10 +4,10 @@
     "slug": "DoneWithIt",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -30,6 +30,12 @@
       "eas": {
         "projectId": "e6540e41-0e32-43e6-9544-bf7345230d13"
       }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e6540e41-0e32-43e6-9544-bf7345230d13"
     }
   }
 }
