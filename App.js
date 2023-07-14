@@ -1,5 +1,6 @@
-import WelcomeScreen from "./app/screens/WelcomeScreen";
+import React from "react";
+import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
 
 export default function App() {
-  return <WelcomeScreen />;
+  return <ListingDetailsScreen />;
 }
